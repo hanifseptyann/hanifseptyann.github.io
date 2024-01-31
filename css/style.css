@@ -212,8 +212,6 @@ header.sticky {
 }
 .portfolio {
   background: var(--blck-bg-color);
-  height: 100vh;
-  width: 100%;
 }
 .portfolio-content {
   display: grid;
@@ -226,7 +224,7 @@ header.sticky {
   height: auto;
   width: 100%;
   border-radius: 28px;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 .row {
   border-radius: 15px;
@@ -461,14 +459,16 @@ form .send-btn:hover {
     margin: 0 auto;
   }
   :root {
-    --h1-font: 4rem;
-    --h2-font: 2.2rem;
-    --p-font: 15px;
+    --h1-font: 3.3rem;
+    --h2-font: 1.8rem;
+    --p-font: 14px;
   }
 }
 @media (max-width: 950px) {
   :root {
-    --h1-font: 3.5rem;
+    --h1-font: 3.1rem;
+    --h2-font: 1.5rem;
+    --p-font: 14px;
   }
   .social {
     margin-bottom: 20px;
@@ -493,20 +493,37 @@ form .send-btn:hover {
     font-size: 22px;
   }
   .navlist.active {
-    right: 0;
+    right: 5;
   }
 }
 
 @media (max-width: 680px) {
+  :root {
+    --h1-font: 3rem;
+    --h2-font: 1.3rem;
+    --p-font: 13px;
+  }
   .main-content p {
     width: 100%;
+  }
+  .h-btn {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+  .logo {
+    font-size: 20px;
+  }
+  form .send-btn {
+    font-size: 11px;
+    padding: 5px 10px;
   }
 }
 @media (max-width: 470px) {
   :root {
-    --h1-font: 3.5rem;
-    --h2-font: 2rem;
+    --h1-font: 2rem;
+    --h2-font: 1rem;
   }
+
   .about-img img {
     text-align: center;
     width: 100%;
