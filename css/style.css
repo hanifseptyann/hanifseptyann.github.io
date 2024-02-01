@@ -395,6 +395,12 @@ form .send-btn:hover {
   color: var(--text-color);
   font-size: 27px;
 }
+@media (max-width: 2700px) {
+  .hero {
+    height: 90vh;
+    background-position: center;
+  }
+}
 @media (max-width: 1700px) {
   header {
     padding: 20px 8%;
@@ -411,6 +417,10 @@ form .send-btn:hover {
   .logo {
     font-size: 28px;
   }
+  .hero {
+    height: 0vh;
+    background-position: center;
+  }
 }
 @media (max-width: 1380px) {
   header {
@@ -426,7 +436,7 @@ form .send-btn:hover {
     padding: 18px 5%;
   }
   .hero {
-    height: 90vh;
+    height: 70vh;
     background-position: center;
   }
 }
@@ -441,6 +451,10 @@ form .send-btn:hover {
   }
   .box h3 {
     font-size: 21px;
+  }
+  .hero {
+    height: 60vh;
+    background-position: center;
   }
 }
 @media (max-width: 1240px) {
@@ -462,6 +476,10 @@ form .send-btn:hover {
     --h1-font: 3.3rem;
     --h2-font: 1.8rem;
     --p-font: 14px;
+  }
+  .hero {
+    height: 50vh;
+    background-position: center;
   }
 }
 @media (max-width: 950px) {
@@ -493,7 +511,11 @@ form .send-btn:hover {
     font-size: 22px;
   }
   .navlist.active {
-    right: 5;
+    right: 0;
+  }
+  .hero {
+    height: 40vh;
+    background-position: center;
   }
 }
 
