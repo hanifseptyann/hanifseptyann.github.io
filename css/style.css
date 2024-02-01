@@ -446,8 +446,7 @@ form .send-btn:hover {
   }
   .box img {
     width: 100%;
-    height: 60px;
-    max-width: 60px;
+    height: auto;
   }
   .box h3 {
     font-size: 21px;
@@ -524,6 +523,10 @@ form .send-btn:hover {
     --h1-font: 3rem;
     --h2-font: 1.3rem;
     --p-font: 13px;
+  }
+  .hero {
+    height: 20vh;
+    background-position: center;
   }
   .main-content p {
     width: 100%;
